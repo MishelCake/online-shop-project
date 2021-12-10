@@ -1,0 +1,24 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.navbar a {
+  padding: 0 15px;
+  width: 100%;
+  text-decoration: none;
+  color: var(--primaryColor);
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar a:hover,.navbar a.active {
+  border-bottom: 2px solid var(--secondaryColor);
+  color: var(--secondaryColor);
+  font-weight: 500;
+  transition: 0.2s ease-in-out;
+}

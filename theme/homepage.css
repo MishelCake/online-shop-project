@@ -1,0 +1,18 @@
+.container > * {
+  margin: 0 10vw;
+  width: calc(100% - 20vw);
+}
+.main{
+  min-height: calc(100vh - 305px);
+}
+
+.container footer {
+  margin: 0;
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .container {
+    margin: 0 0;
+  }
+}
