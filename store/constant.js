@@ -1,6 +1,10 @@
 const isLoggedIn = false;
+
+//make sure to change the paths below based on where your files are
 const pageLocation = `file:///C:/Users/mishe/Desktop/SchoolOnlineShop/application/pages`;
 const imageLocation = "file:///C:/Users/mishe/Desktop/SchoolOnlineShop/images/";
+
+
 const windowUrl = new URL(window.location.href);
 
 const categoryList = [
